@@ -3,3 +3,4 @@ Betastore::Application.routes.draw do
   root :to => 'products#index'
 
   resources :subscriptions
+end

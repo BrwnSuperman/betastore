@@ -1,10 +1,10 @@
 class ProductsController < ApplicationController
-  before_action :set_subscription, only: [:show, :edit, :update, :destroy]
+  before_action :set_product, only: [:show, :edit, :update, :destroy]
 
   # GET /products
   # GET /products.json
   def index
-    @products = @products.all
+    @products = Product.all
   end
 
   # GET /products/1
@@ -14,7 +14,7 @@ class ProductsController < ApplicationController
 
   # GET /products/new
   def new
-    @products = products.new
+    @product = Product.new
   end
 
   # GET /products/1/edit
@@ -24,15 +24,15 @@ class ProductsController < ApplicationController
   # POST /products
   # POST /products.json
   def create
-    @products = Products.new(subscription_params)
+    @product = Product.new(product_params)
 
     respond_to do |format|
-      if @products.save
-        format.html { redirect_to @products, notice: 'Subscription was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @subscription }
+      if @product.save
+        format.html { redirect_to @product, notice: 'Product was successfully created.' }
+        format.json { render action: 'show', status: :created, location: @product }
       else
         format.html { render action: 'new' }
-        format.json { render json: @products.errors, status: :unprocessable_entity }
+        format.json { render json: @product.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -41,12 +41,12 @@ class ProductsController < ApplicationController
   # PATCH/PUT /products/1.json
   def update
     respond_to do |format|
-      if @products.update(products_params)
-        format.html { redirect_to @products, notice: 'Product was successfully updated.' }
+      if @product.update(product_params)
+        format.html { redirect_to @product, notice: 'Product was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
-        format.json { render json: @products.errors, status: :unprocessable_entity }
+        format.json { render json: @product.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -54,7 +54,7 @@ class ProductsController < ApplicationController
   # DELETE /products/1
   # DELETE /products/1.json
   def destroy
-    @products.destroy
+    @product.destroy
     respond_to do |format|
       format.html { redirect_to products_url }
       format.json { head :no_content }
@@ -63,12 +63,12 @@ class ProductsController < ApplicationController
 
   private
   # Use callbacks to share common setup or constraints between actions.
-  def set_subscription
-    @products = Products.find(params[:id])
+  def set_product
+    @product = Product.find(params[:id])
   end
 
   # Never trust parameters from the scary internet, only allow the white list through.
-  def subscription_params
-    params.require(:subscription).permit(:email)
+  def product_params
+    params[:product]
   end
 end
