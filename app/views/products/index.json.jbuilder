@@ -1,4 +1,4 @@
-json.array!(@subscriptions) do |subscription|
-  json.extract! subscription, :email
-  json.url subscription_url(subscription, format: :json)
+json.array!(@products) do |product|
+  json.extract! product, 
+  json.url product_url(product, format: :json)
 end
