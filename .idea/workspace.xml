@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.irbc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/refund.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/hirb.yml" afterPath="$PROJECT_DIR$/config/hirb.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="betastore.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380846859045" ignored="false" />
+    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380914598309" ignored="false" />
     <file path="/database.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380662043276" ignored="false" />
     <file path="/products.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380672714680" ignored="false" />
     <file path="/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380839687224" ignored="false" />
@@ -596,12 +592,16 @@
       <created>1380846861951</created>
       <updated>1380846861951</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Log In Test">
+      <created>1380914601528</created>
+      <updated>1380914601528</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
