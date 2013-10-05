@@ -8,6 +8,7 @@ class LogInsController < ApplicationController
       redirect_to log_in_path, alert: 'Log In Failed'
     end
   end
+
   def destroy
     cookies.delete(:email)
     redirect_to products_path
