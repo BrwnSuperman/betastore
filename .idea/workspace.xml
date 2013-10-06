@@ -15,7 +15,7 @@
     <file path="/log_ins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380845046302" ignored="false" />
     <file path="/application_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380846121999" ignored="false" />
     <file path="/refund.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380847329068" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381009728697" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381011709673" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <file leaf-file-name="log_ins_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/log_ins_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="279" selection-end="279" vertical-scroll-proportion="0.19101124">
+            <state line="15" column="72" selection-start="360" selection-end="360" vertical-scroll-proportion="0.28651685">
               <folding />
             </state>
           </provider>
@@ -800,7 +800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/log_ins_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="279" selection-end="279" vertical-scroll-proportion="0.19101124">
+        <state line="15" column="72" selection-start="360" selection-end="360" vertical-scroll-proportion="0.28651685">
           <folding />
         </state>
       </provider>
