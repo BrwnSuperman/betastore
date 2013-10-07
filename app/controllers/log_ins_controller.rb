@@ -1,5 +1,7 @@
 class LogInsController < ApplicationController
   skip_before_filter :require_log_in
+
+
   def create
     if params[:password].present?
       cookies[:email] = params[:email]
@@ -13,4 +15,6 @@ class LogInsController < ApplicationController
     cookies.delete(:email)
     redirect_to products_path
   end
+
+
 end
