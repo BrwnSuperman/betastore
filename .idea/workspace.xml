@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" name="Default" comment="" />
+    <list default="true" id="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="betastore.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381117016170" ignored="false" />
+    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381117538170" ignored="false" />
     <file path="/database.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380662043276" ignored="false" />
     <file path="/products.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380672714680" ignored="false" />
     <file path="/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380839687224" ignored="false" />
     <file path="/products_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380674545223" ignored="false" />
     <file path="/seeds.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380676017243" ignored="false" />
     <file path="/product.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380678314643" ignored="false" />
-    <file path="/index.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381116830095" ignored="false" />
+    <file path="/index.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381117439263" ignored="false" />
     <file path="/log_ins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381116502496" ignored="false" />
     <file path="/application_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380846121999" ignored="false" />
     <file path="/refund.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380847329068" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381117007113" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +80,17 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="83" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.5902778">
+            <state line="26" column="27" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.5115741">
               <folding>
                 <element signature="e#54#89#0" expanded="true" />
-                <element signature="e#412#441#0" expanded="true" />
-                <element signature="e#633#662#0" expanded="true" />
-                <element signature="e#865#894#0" expanded="true" />
-                <element signature="e#958#977#0" expanded="true" />
-                <element signature="e#1133#1162#0" expanded="true" />
-                <element signature="e#1356#1385#0" expanded="true" />
-                <element signature="e#1581#1610#0" expanded="true" />
-                <element signature="e#1677#1696#0" expanded="true" />
+                <element signature="e#471#514#0" expanded="true" />
+                <element signature="e#706#749#0" expanded="true" />
+                <element signature="e#952#995#0" expanded="true" />
+                <element signature="e#1059#1078#0" expanded="true" />
+                <element signature="e#1234#1277#0" expanded="true" />
+                <element signature="e#1471#1514#0" expanded="true" />
+                <element signature="e#1710#1753#0" expanded="true" />
+                <element signature="e#1820#1839#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -630,7 +631,11 @@
       <created>1381117018644</created>
       <updated>1381117018644</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Fixed colors">
+      <created>1381117540595</created>
+      <updated>1381117540595</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -699,7 +704,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed colors" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -719,6 +724,7 @@
     <MESSAGE value="Log In Test" />
     <MESSAGE value="Fix margins" />
     <MESSAGE value="Clean up code" />
+    <MESSAGE value="Fixed colors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -831,17 +837,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="83" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.5902778">
+        <state line="26" column="27" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.5115741">
           <folding>
             <element signature="e#54#89#0" expanded="true" />
-            <element signature="e#412#441#0" expanded="true" />
-            <element signature="e#633#662#0" expanded="true" />
-            <element signature="e#865#894#0" expanded="true" />
-            <element signature="e#958#977#0" expanded="true" />
-            <element signature="e#1133#1162#0" expanded="true" />
-            <element signature="e#1356#1385#0" expanded="true" />
-            <element signature="e#1581#1610#0" expanded="true" />
-            <element signature="e#1677#1696#0" expanded="true" />
+            <element signature="e#471#514#0" expanded="true" />
+            <element signature="e#706#749#0" expanded="true" />
+            <element signature="e#952#995#0" expanded="true" />
+            <element signature="e#1059#1078#0" expanded="true" />
+            <element signature="e#1234#1277#0" expanded="true" />
+            <element signature="e#1471#1514#0" expanded="true" />
+            <element signature="e#1710#1753#0" expanded="true" />
+            <element signature="e#1820#1839#0" expanded="true" />
           </folding>
         </state>
       </provider>
