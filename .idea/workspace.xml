@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="betastore.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381115229249" ignored="false" />
+    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381116109493" ignored="false" />
     <file path="/database.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380662043276" ignored="false" />
     <file path="/products.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380672714680" ignored="false" />
     <file path="/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380839687224" ignored="false" />
@@ -634,12 +633,16 @@
       <created>1381115232568</created>
       <updated>1381115232568</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fix margins">
+      <created>1381116112077</created>
+      <updated>1381116112077</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1360" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -703,7 +706,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Log In Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix margins" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -721,6 +724,7 @@
     <MESSAGE value="Simplified" />
     <MESSAGE value="Product controller" />
     <MESSAGE value="Log In Test" />
+    <MESSAGE value="Fix margins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

@@ -1,0 +1,57 @@
+<style type="text/css">
+.float img {
+	text-align: center;
+}
+</style>
+<h1>Product Listing</h1>
+
+<style>
+    margin: 0 auto;
+</style>
+
+<div id="container">
+
+  <style>
+      div.float {
+          float: left;
+          margin: 0 auto;
+      }
+
+      div.float p {
+          text-align: center;
+          margin: 0 auto;
+      }
+  </style>
+  <div class="float">
+    <img src="http://pjb3.github.io/betastore/products/hat.jpg" width="200" alt="Hat" /><br />
+    <p><a class="box-text" style="text-decoration: none" href=#>Hat</a></p>
+
+  </div><div class="float">
+  <img src="http://pjb3.github.io/betastore/products/hoodie.jpg" width="200"
+       alt="Hoodie" /><br />
+  <p><a class="box-text" style="text-decoration: none" href=#>Hoodie</a></p>
+
+  </div><div class="float">
+  <img src="http://pjb3.github.io/betastore/products/iphone_case.jpg" width="200"
+       alt="iPhone Case" /><br />
+  <p><a class="box-text" style="text-decoration: none" href=#>iPhone Case</a></p>
+  </div>
+
+  <div style="clear: both"></div>
+
+  <div class="float">
+    <img src="http://pjb3.github.io/betastore/products/journal.jpg" width="200"
+         alt="Journal" /><br />
+    <p><a class="box-text" style="text-decoration: none" href=#>Journal</a></p>
+  </div><div class="float">
+  <img src="http://pjb3.github.io/betastore/products/shirt.jpg" width="200"
+       alt="Shirt" /><br />
+  <p><a class="box-text" style="text-decoration: none" href=#>Shirt</a></p>
+  </div><div class="float">
+  <img src="http://pjb3.github.io/betastore/products/sticker.jpg" width="200"
+       alt="Sticker" /><br />
+  <p><a class="box-text" style="text-decoration: none" href=#>Sticker</a></p>
+</div>
+
+
+<a><%= link_to 'New Product', new_product_path %></a>
