@@ -1,7 +1,6 @@
 class LogInsController < ApplicationController
   skip_before_filter :require_log_in
 
-
   def create
     if params[:password].present?
       cookies[:email] = params[:email]
