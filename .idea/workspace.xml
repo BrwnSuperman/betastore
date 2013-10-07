@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" name="Default" comment="" />
     <ignored path="betastore.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381116109493" ignored="false" />
+    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381117016170" ignored="false" />
     <file path="/database.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380662043276" ignored="false" />
     <file path="/products.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380672714680" ignored="false" />
     <file path="/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380839687224" ignored="false" />
     <file path="/products_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380674545223" ignored="false" />
     <file path="/seeds.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380676017243" ignored="false" />
     <file path="/product.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380678314643" ignored="false" />
-    <file path="/index.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381115897390" ignored="false" />
-    <file path="/log_ins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380845046302" ignored="false" />
+    <file path="/index.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381116830095" ignored="false" />
+    <file path="/log_ins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381116502496" ignored="false" />
     <file path="/application_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380846121999" ignored="false" />
     <file path="/refund.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380847329068" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381117007113" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,18 +79,17 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="36" selection-start="272" selection-end="272" vertical-scroll-proportion="0.2951389">
+            <state line="30" column="83" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.5902778">
               <folding>
                 <element signature="e#54#89#0" expanded="true" />
-                <element signature="e#280#299#0" expanded="true" />
-                <element signature="e#446#475#0" expanded="true" />
-                <element signature="e#646#675#0" expanded="true" />
-                <element signature="e#857#886#0" expanded="true" />
-                <element signature="e#929#948#0" expanded="true" />
-                <element signature="e#1104#1133#0" expanded="true" />
-                <element signature="e#1306#1335#0" expanded="true" />
-                <element signature="e#1510#1539#0" expanded="true" />
-                <element signature="e#1583#1602#0" expanded="true" />
+                <element signature="e#412#441#0" expanded="true" />
+                <element signature="e#633#662#0" expanded="true" />
+                <element signature="e#865#894#0" expanded="true" />
+                <element signature="e#958#977#0" expanded="true" />
+                <element signature="e#1133#1162#0" expanded="true" />
+                <element signature="e#1356#1385#0" expanded="true" />
+                <element signature="e#1581#1610#0" expanded="true" />
+                <element signature="e#1677#1696#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,7 +116,7 @@
       <file leaf-file-name="log_ins_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/log_ins_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="3" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+            <state line="18" column="8" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,15 +126,6 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="11" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="464" selection-end="464" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
@@ -172,9 +161,9 @@
         <option value="$PROJECT_DIR$/app/views/log_ins/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/log_ins_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/log_ins_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
       </list>
     </option>
@@ -637,7 +626,11 @@
       <created>1381116112077</created>
       <updated>1381116112077</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Clean up code">
+      <created>1381117018644</created>
+      <updated>1381117018644</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -647,6 +640,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0015432099" sideWeight="0.67022413" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18364197" sideWeight="0.67022413" order="0" side_tool="false" content_ui="combo" />
@@ -658,7 +652,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -706,7 +699,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix margins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up code" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -725,6 +718,7 @@
     <MESSAGE value="Product controller" />
     <MESSAGE value="Log In Test" />
     <MESSAGE value="Fix margins" />
+    <MESSAGE value="Clean up code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -754,13 +748,6 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20131001223620_create_products.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="3" selection-start="195" selection-end="195" vertical-scroll-proportion="0.19058296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/subscriptions/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -800,13 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/log_ins_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="3" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/subscriptions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -835,20 +815,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/subscriptions/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/log_ins_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="272" selection-end="272" vertical-scroll-proportion="0.2951389">
+        <state line="30" column="83" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.5902778">
           <folding>
             <element signature="e#54#89#0" expanded="true" />
-            <element signature="e#280#299#0" expanded="true" />
-            <element signature="e#446#475#0" expanded="true" />
-            <element signature="e#646#675#0" expanded="true" />
-            <element signature="e#857#886#0" expanded="true" />
-            <element signature="e#929#948#0" expanded="true" />
-            <element signature="e#1104#1133#0" expanded="true" />
-            <element signature="e#1306#1335#0" expanded="true" />
-            <element signature="e#1510#1539#0" expanded="true" />
-            <element signature="e#1583#1602#0" expanded="true" />
+            <element signature="e#412#441#0" expanded="true" />
+            <element signature="e#633#662#0" expanded="true" />
+            <element signature="e#865#894#0" expanded="true" />
+            <element signature="e#958#977#0" expanded="true" />
+            <element signature="e#1133#1162#0" expanded="true" />
+            <element signature="e#1356#1385#0" expanded="true" />
+            <element signature="e#1581#1610#0" expanded="true" />
+            <element signature="e#1677#1696#0" expanded="true" />
           </folding>
         </state>
       </provider>
