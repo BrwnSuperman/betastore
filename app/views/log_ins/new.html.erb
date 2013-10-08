@@ -1,13 +1,18 @@
-<h1>Log In</h1>
+<%= form_for @customer, url: sign_up_path do |f| %>
+    <div>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </div>
 
-<%= form_tag do %>
-    <%= label_tag :email %>
-    <%= email_field_tag :email %>
+    <div>
+      <%= f.label :email %>
+      <%= f.email_field :email %>
+    </div>
 
-    <%= label_tag :password %>
-    <%= password_field_tag :password %>
+    <div>
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+    </div>
 
-    <%= button_tag "Log In" %>
-  <% if flash[:alert] %>
-      <p style="color: red"><%= flash[:alert] %></p>
-  <% end %>
+    <%= f.submit 'Sign Up' %>
+<% end %>
