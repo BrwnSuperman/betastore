@@ -1,5 +1,7 @@
 Betastore::Application.routes.draw do
 
+  get "orders/new"
+  get "refund/new"
   resources :products, :subscriptions
   root :to => 'products#index'
   get '/log_in'  => 'log_ins#new', as: 'log_in'
