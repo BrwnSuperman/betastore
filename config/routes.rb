@@ -1,8 +1,11 @@
 Betastore::Application.routes.draw do
 
-  get "orders/new"
-  get "refund/new"
-  resources :products, :subscriptions
+  resources :products, only: [:index] do
+    resources :orders, only: [:new, :create, :update, :delete, :index] do
+      resources :refunds, only [:index, :new, :create]
+    end
+  end
+  resources :subscriptions
   root :to => 'products#index'
   get '/log_in'  => 'log_ins#new', as: 'log_in'
   post '/log_in'  => 'log_ins#create'
