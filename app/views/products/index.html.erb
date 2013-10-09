@@ -4,9 +4,21 @@
   <% @products.each do |product| %>
 
       <!-- All Each Row just shows up now! -->
-      <src="<%= product.url %>"/>
+      <div class="box">
+        <img class="box-image" src="<%= product.url %>"/>
+        <a class="box-text" href=#><%=product.name%></a>
+        <div class="box-text"><%= link_to "Edit", edit_product_path(product)%></div>
+        <div class="box-text"><%= link_to "Delete", product, :method => :delete%></div>
+
+      </div>
+
+
 
   <%end%>
+
+
+
+
 
 
   <% if cookies[:email].present? %>
