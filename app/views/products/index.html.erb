@@ -4,7 +4,7 @@
   <% @products.each do |product| %>
 
       <!-- All Each Row just shows up now! -->
-      <div class="box"><img class="box-image" src="<%= product.url %>"/><a class="box-text" href=#><%=product.name%></a></div>
+      <img class="box-image" src="<%= product.url %>"/><a class="box-text" href=#><%=product.name%></a>
 
   <%end%>
 
