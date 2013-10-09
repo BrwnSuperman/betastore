@@ -1,25 +1,12 @@
-<h1>Product Listing</h1>
-
 <div id="container">
+
 
   <% @products.each do |product| %>
 
       <!-- All Each Row just shows up now! -->
-      <div class="box">
-        <img class="box-image" src="<%= product.url %>"/>
-        <a class="box-text" href=#><%=product.name%></a>
-        <div class="box-text"><%= link_to "Edit", edit_product_path(product)%></div>
-        <div class="box-text"><%= link_to "Delete", product, :method => :delete%></div>
-
-      </div>
-
-
+      <div class="box"><img class="box-image" src="<%= product.url %>"/><a class="box-text" href=#><%=product.name%></a></div>
 
   <%end%>
-
-
-
-
 
 
   <% if cookies[:email].present? %>
@@ -28,4 +15,4 @@
       <%= link_to "Log In", log_in_path, method: 'get' %>
   <%end%>
 
-</div>
+</div> 

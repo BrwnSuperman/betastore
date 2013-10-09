@@ -1,6 +1,6 @@
-<h1>Log In</h1>
+<h1 style="text-align:center">Log In</h1>
 
-<form method="POST" action="/log_in">
+<form method="POST" action="/log_in" style="text-align:center">
   <label>
     Email
     <input type="email" name="email" />
@@ -12,7 +12,9 @@
   </label>
 
   <button type="submit">Log In</button>
-  <% if flash[:alert] %>
-      <p style="color: red"><%= flash[:alert] %></p>
-  <% end %>
 </form>
+
+<% if flash[:alert] %>
+    <p style="color:red"><%= flash[:alert] %></p>
+
+<% end %>
