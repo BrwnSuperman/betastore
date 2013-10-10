@@ -5,7 +5,7 @@
 
       <!-- All Each Row just shows up now! -->
       <div class="box">
-        <img class="box-image" src="<%= product.url %>"/>
+        <img class="box-image" src="<%= product.url %>" width="250px"/>
         <a class="box-text" href=#><%=product.name%></a>
         <div class="box-text"><%= link_to "Edit", edit_product_path(product)%></div>
         <div class="box-text"><%= link_to "Delete", product, :method => :delete%></div>
