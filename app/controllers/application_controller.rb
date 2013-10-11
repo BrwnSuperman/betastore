@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   end
 
   def logged_in?
-    cookies[:email].present?
+    cookies.signed[:customer_id].present?
   end
 
   # Prevent CSRF attacks by raising an exception.

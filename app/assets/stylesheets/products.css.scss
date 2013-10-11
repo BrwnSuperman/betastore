@@ -1,10 +1,5 @@
 .box {
-  width: 130px;
   float: left;
-  text-align: center;
-  font-size: 12px;
-  font-family: 'Rationale', sans-serif;
-  border-style: solid;
 }
 
 .box-image {
@@ -12,12 +7,12 @@
 }
 
 .box-text{
-  color: black;
+  text-align: center;
   text-decoration: none;
+  color: #000000;
 }
 
 #container {
-  height: 400px;
   width: 750px;
   margin: 0 auto;
 }

@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
-  before_filter :require_log_in, :only => [:show, :index]
+  #before_filter :require_log_in, :only => [:show, :index]
 
   def show
     @product = Product.find(params[:id])

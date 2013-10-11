@@ -1,5 +1,6 @@
 Betastore::Application.routes.draw do
 
+  get "customers/new"
   resources :products, :orders
   resources :customers, only: [:new, :create]
     get '/sign_up' => 'customers#new', as: 'sign_up'

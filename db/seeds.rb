@@ -8,7 +8,7 @@
 
 
 shirt = Product.create(name: 'Shirt', price: 2.99, url: 'http://pjb3.github.io/betastore/products/shirt.jpg')
-iphone_case = Product.create(name: 'IPhone', price: 3.75, url: 'http://pjb3.github.io/betastore/products/iphone_case.jpg')
+iphone_case = Product.create(name: 'iPhone Case', price: 3.75, url: 'http://pjb3.github.io/betastore/products/iphone_case.jpg')
 hoodie = Product.create(name: 'Hoodie', price: 3.99, url: 'http://pjb3.github.io/betastore/products/hoodie.jpg')
 journal = Product.create(name: 'Journal', price: 3.99, url: 'http://pjb3.github.io/betastore/products/journal.jpg')
 sticker = Product.create(name: 'Sticker', price: 3.99, url: 'http://pjb3.github.io/betastore/products/sticker.jpg')
