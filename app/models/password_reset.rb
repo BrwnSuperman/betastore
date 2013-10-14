@@ -6,7 +6,4 @@ class PasswordReset < ActiveRecord::Base
   def generate_token
     self.token ||= SecureRandom.hex(16)
   end
-
-  has_many :password_resets
-
 end
