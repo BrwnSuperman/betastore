@@ -1,0 +1,36 @@
+<h1>Login</h1>
+
+
+<div class="form">
+  <%= form_tag url: log_in_path do |login_form| %>
+
+      <p><%= label_tag 'customer_email', 'Email' %></p>
+      <%= email_field_tag 'login[email]', @login.email %>
+
+      <p><%= label_tag 'login_password', 'Password' %></p>
+      <%= password_field_tag 'login[password]', @login.password %>
+
+
+      <%= button_tag 'Login', class: 'primary-button' %>
+  <% end %>
+</div>
+
+<!-- <div class="form">
+    <% @logins.each do |login| %>
+
+    <%= link_to 'Show', login %>
+    <%= link_to 'Edit', edit_login_path(login) %>
+    <%= link_to 'Destroy', login, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+<% end %>
+</div> -->
+<br>
+
+<div class="primary-button" id="top-login">
+  <% if cookies[:email].present? %>
+      <%= link_to "Login", log_out_path, method: 'post' %>
+  <% else %>
+      <%= link_to "Sign Up", sign_up_path, method: 'post' %>
+  <% end %>
+</div>
+
