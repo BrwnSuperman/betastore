@@ -17,7 +17,7 @@ hat = Product.create(name: 'Hat', price: 3.99, url: 'http://pjb3.github.io/betas
 tanveer = Customer.create!(name: 'Tanveer', email: 'test@example.com')
 me = Customer.create!(name: 'Paul Barry', email: 'mail@paulbarry.com')
 test = Customer.create!(name: 'John Doe', email: 'test@example.com')
-Customer.create!(name: 'Nowhere Man', email: 'man@nowhere.com')
+Customer.create(name: 'Nowhere Man', email: 'man@nowhere.com')
 
 order = Order.create(customer: tanveer, placed_at: '2013-09-27')
 LineItem.create(order: order, quantity: 1, product: iphone_case)
