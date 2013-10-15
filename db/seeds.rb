@@ -14,9 +14,9 @@ journal = Product.create(name: 'Journal', price: 3.99, url: 'http://pjb3.github.
 sticker = Product.create(name: 'Sticker', price: 3.99, url: 'http://pjb3.github.io/betastore/products/sticker.jpg')
 hat = Product.create(name: 'Hat', price: 3.99, url: 'http://pjb3.github.io/betastore/products/hat.jpg')
 
-tanveer = Customer.create!(name: 'Tanveer', email: 'test@example.com')
-me = Customer.create!(name: 'Paul Barry', email: 'mail@paulbarry.com')
-test = Customer.create!(name: 'John Doe', email: 'test@example.com')
+tanveer = Customer.create(name: 'Tanveer', email: 'test@example.com')
+me = Customer.create(name: 'Paul Barry', email: 'mail@paulbarry.com')
+test = Customer.create(name: 'John Doe', email: 'test@example.com')
 Customer.create(name: 'Nowhere Man', email: 'man@nowhere.com')
 
 order = Order.create(customer: tanveer, placed_at: '2013-09-27')
