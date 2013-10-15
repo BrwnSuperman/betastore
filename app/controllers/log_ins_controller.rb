@@ -18,25 +18,25 @@ class LoginsController < ApplicationController
   end
 
   def index
-    @logins = Login.all
+    @log_ins = Login.all
   end
 
-  # GET /logins/1
-  # GET /logins/1.json
+  # GET /log_ins/1
+  # GET /log_ins/1.json
   def show
   end
 
-  # GET /logins/new
+  # GET /log_ins/new
   def new
     @login = Login.new
   end
 
-  # GET /logins/1/edit
+  # GET /log_ins/1/edit
   def edit
   end
 
-  # POST /logins
-  # POST /logins.json
+  # POST /log_ins
+  # POST /log_ins.json
   def create
     @login = Login.new(login_params)
 
@@ -52,8 +52,8 @@ class LoginsController < ApplicationController
   #    end
   # end
 
-  # # PATCH/PUT /logins/1
-  # # PATCH/PUT /logins/1.json
+  # # PATCH/PUT /log_ins/1
+  # # PATCH/PUT /log_ins/1.json
   # def update
   #   respond_to do |format|
   #     if @login.update(login_params)
@@ -66,12 +66,12 @@ class LoginsController < ApplicationController
   #   end
   # end
 
-  # # DELETE /logins/1
-  # # DELETE /logins/1.json
+  # # DELETE /log_ins/1
+  # # DELETE /log_ins/1.json
   # def destroy
   #   @login.destroy
   #   respond_to do |format|
-  #     format.html { redirect_to logins_url }
+  #     format.html { redirect_to log_ins_url }
   #     format.json { head :no_content }
   #   end
   # end

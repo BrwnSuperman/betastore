@@ -1,24 +1,89 @@
-<div id="container">
+<h1>Product Listing</h1>
 
+<a><%= link_to 'Add New Product', new_product_path %></a>
 
+<!-- <table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
   <% @products.each do |product| %>
+      <tr>
+        <td><% print(product.name) %></td>
+        <td><%= link_to 'Show', product %></td>
+        <td><%= link_to 'Edit', edit_product_path(product) %></td>
+        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table> -->
 
-      <!-- All Each Row just shows up now! -->
-      <div class="box"><br>
-        <a class="box-text" href=#><%=product.name%></a><br>
-        <img class="box-image" src="<%= product.url %>" width="250px"/><br>
-        <a class="box-text" href=#><%=number_to_currency(product.price)%></a><br>
-        <a class="box-text" href=#><%=time_ago_in_words(product.created_at)%></a><br>
-        <!--<div class="box-text"><%= link_to "Edit", edit_product_path(product)%></div>-->
-        <!--<div class="box-text"><%= link_to "Delete", product, :method => :delete%></div>-->
+<div class="columns">
+
+  <% @products.each_with_index do |product, i| %>
+
+      <div class="third <%= i%3 == 2 ? 'last' : ''%>">
+        <div><%= link_to product.name, product_path(product) %></div>
+        <div>Created <%= time_ago_in_words product.created_at %></div>
+        <div><%= number_to_currency(product.price) %></div>
+        <img src="<%= product.url %>" />
       </div>
-      <br />
-   <%end%>
+  <% end %>
 
-  <% if cookies[:email].present? %>
-      <%= link_to "Log Out", log_out_path, method: 'post' %>
-  <%else%>
-      <%= link_to "Log In", log_in_path, method: 'get' %>
-  <%end%>
+</div>
+<div class="hr"></div>
 
-</div> 
+<!-- <div class="third">
+
+  <img src="http://pjb3.github.io/betastore/products/hoodie.jpg"/>
+
+  <p><a href="#">Hoodie</a></p>
+</div>
+
+<div class="third last">
+
+  <img src="http://pjb3.github.io/betastore/products/iphone_case.jpg"/>
+
+  <p><a href="#">iPhone Case</a></p>
+
+</div>
+
+</div>
+
+<div class="hr"></div>
+
+<div class="columns">
+
+<div class="third">
+
+  <img src="http://pjb3.github.io/betastore/products/journal.jpg"/>
+
+  <p><a href="#">Journal</a></p>
+
+</div>
+
+<div class="third">
+
+  <img src="http://pjb3.github.io/betastore/products/shirt.jpg"/>
+
+  <p><a href="#">Shirt</a></p>
+
+</div>
+
+<div class="third last">
+
+  <img src="http://pjb3.github.io/betastore/products/sticker.jpg"/>
+
+  <p><a href="#">Sticker</a></p>
+
+</div>
+
+</div>
+
+<div class="hr"></div> -->
+

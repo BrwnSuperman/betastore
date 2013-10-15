@@ -5,10 +5,10 @@ Betastore::Application.routes.draw do
 
   resources :subscriptions
 
-  get '/log_in'  => 'logins#index', as: 'log_in'
-  get '/log_in'  => 'logins#new'
-  post '/log_in'  => 'logins#create'
-  post '/log_out' => 'logins#destroy', as: 'log_out'
+  get '/log_in'  => 'log_ins#index', as: 'log_in'
+  get '/log_in'  => 'log_ins#new'
+  post '/log_in'  => 'log_ins#create'
+  post '/log_out' => 'log_ins#destroy', as: 'log_out'
 
   get '/sign_up' => 'customers#new', as: 'sign_up'
   post '/sign_up' => 'customers#create'
