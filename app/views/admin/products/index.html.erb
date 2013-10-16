@@ -1,28 +1,29 @@
-<h1>Listing admin_products</h1>
+<% if flash[:notice].present? %>
+  <div class="alert alert-success"><%= notice %></div>
+<% end %>
 
-<a><%= link_to 'Add New Product', new_product_path %></a>
+<ol class="breadcrumb">
+  <li class="active">Products</li>
+</ol>
 
-<!-- <table>
+<table class="table">
   <thead>
     <tr>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th>Name</th>
+      <th>Price</th>
     </tr>
   </thead>
 
   <tbody>
-  <% @products.each do |product| %>
+    <% @products.each do |product| %>
       <tr>
-        <td><% print(product.name) %></td>
         <td><%= link_to product.name, admin_product_path(product) %></td>
-        <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= number_to_currency product.price %></td>
       </tr>
-  <% end %>
+    <% end %>
   </tbody>
-</table> -->
+</table>
 
-<br>
-
-<%= link_to 'New Product', new_admin_product_path %>
+<p>
+  <%= link_to 'New Product', new_admin_product_path, class: 'btn btn-primary' %>
+</p>
