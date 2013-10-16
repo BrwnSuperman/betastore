@@ -12,28 +12,17 @@ class SubscriptionsController < ApplicationController
   def show
   end
 
-  # GET /subscriptions/new
   def new
     @subscription = Subscription.new
   end
 
-  # GET /subscriptions/1/edit
-  def edit
-  end
-
-  # POST /subscriptions
-  # POST /subscriptions.json
   def create
     @subscription = Subscription.new(subscription_params)
 
-    respond_to do |format|
-      if @subscription.save
-        format.html { redirect_to @subscription, notice: 'Subscription was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @subscription }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @subscription.errors, status: :unprocessable_entity }
-      end
+    if @subscription.save
+      redirect_to @subscription, notice: 'Subscription was successfully created.'
+    else
+      render action: 'new'        
     end
   end
 
@@ -62,13 +51,13 @@ class SubscriptionsController < ApplicationController
   end
 
   private
-  # Use callbacks to share common setup or constraints between actions.
-  def set_subscription
-    @subscription = Subscription.find(params[:id])
-  end
+    # Use callbacks to share common setup or constraints between actions.
+    def set_subscription
+      @subscription = Subscription.find(params[:id])
+    end
 
-  # Never trust parameters from the scary internet, only allow the white list through.
-  def subscription_params
-    params.require(:subscription).permit(:email)
-  end
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def subscription_params
+      params.require(:subscription).permit(:email)
+    end
 end

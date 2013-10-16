@@ -8,7 +8,7 @@ class CustomersController < ApplicationController
   def create
     @customer = Customer.new(customer_params)
     if @customer.save
-      redirect_to log_in_path
+      redirect_to log_in_path, notice: 'Your account was created, please log in'
     else
       render 'new'
     end

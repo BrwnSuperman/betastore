@@ -1,66 +1,18 @@
-<h1>Product Listing</h1>
+<% if logged_in? %>
+  <%= link_to "Log Out", log_out_path, method: 'post' %>
+<% else %>
+  <%= link_to "Log In", log_in_path %>
+<% end %>
 
-<div class="columns">
-
-  <% @products.each_with_index do |product, i| %>
-
-      <div class="third <%= i%3 == 2 ? 'last' : ''%>">
-        <div><%= link_to product.name, product_path(product) %></div>
-        <div>Created <%= time_ago_in_words product.created_at %></div>
-        <div><%= number_to_currency(product.price) %></div>
-        <img src="<%= product.url %>" />
-      </div>
+<section class="products">
+  <% @products.each do |product| %>
+    <article>
+      <%= image_tag product.image_url %>
+      <h2><%= link_to product_title(product).html_safe, product_path(product) %></h2>
+      <p>
+        <%= number_to_currency product.price %>,
+        Added <%= time_ago_in_words product.created_at %> ago
+      </p>
+    </article>
   <% end %>
-
-</div>
-<div class="hr"></div>
-
-<!-- <div class="third">
-
-  <img src="http://pjb3.github.io/betastore/products/hoodie.jpg"/>
-
-  <p><a href="#">Hoodie</a></p>
-</div>
-
-<div class="third last">
-
-  <img src="http://pjb3.github.io/betastore/products/iphone_case.jpg"/>
-
-  <p><a href="#">iPhone Case</a></p>
-
-</div>
-
-</div>
-
-<div class="hr"></div>
-
-<div class="columns">
-
-<div class="third">
-
-  <img src="http://pjb3.github.io/betastore/products/journal.jpg"/>
-
-  <p><a href="#">Journal</a></p>
-
-</div>
-
-<div class="third">
-
-  <img src="http://pjb3.github.io/betastore/products/shirt.jpg"/>
-
-  <p><a href="#">Shirt</a></p>
-
-</div>
-
-<div class="third last">
-
-  <img src="http://pjb3.github.io/betastore/products/sticker.jpg"/>
-
-  <p><a href="#">Sticker</a></p>
-
-</div>
-
-</div>
-
-<div class="hr"></div> -->
-
+</section>

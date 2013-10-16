@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Betastore::Application.config.secret_key_base = '52761b7fc536b47007dc31945cf92b51fef794324eb7cd135cfaf1faa0ca49bdf4e7fb78bfcda4223037cfdb51b85d1e8dc6bd24e481804f64a5a0f0f8702f6a'
+Betastore::Application.config.secret_key_base = '7533b1758b56a4f39a53933dfde6f8c9428e49623d58de10562af59b1db158d4b7d09edbf695546e370526767e59a590301b8e7eeae735c648d6c7eb93edc950'

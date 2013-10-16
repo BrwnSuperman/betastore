@@ -1,19 +1,18 @@
 Betastore::Application.routes.draw do
-  namespace :admin do
-    resources:products
+  resources :products, only: [:index, :show]
+
+  resources :subscriptions, only: [:new, :create, :show]
+
+  resources :orders do
+    resource :refund
   end
 
-  resources :products
-  root :to => 'products#index'
+   get '/sign_up' => 'customers#new', as: 'sign_up'
+  post '/sign_up' => 'customers#create'
 
-  resources :subscriptions
-
-  get '/log_in'  => 'log_ins#index', as: 'log_in'
-  get '/log_in'  => 'log_ins#new'
+   get '/log_in'  => 'log_ins#new', as: 'log_in'
   post '/log_in'  => 'log_ins#create'
   post '/log_out' => 'log_ins#destroy', as: 'log_out'
 
-  get '/sign_up' => 'customers#new', as: 'sign_up'
-  post '/sign_up' => 'customers#create'
-
+  root :to => 'subscriptions#new'
 end

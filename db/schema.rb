@@ -59,7 +59,6 @@ ActiveRecord::Schema.define(version: 20131010234650) do
   create_table "products", force: true do |t|
     t.string   "name"
     t.decimal  "price"
-    t.string   "url"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

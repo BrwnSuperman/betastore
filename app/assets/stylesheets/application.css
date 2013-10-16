@@ -8,158 +8,31 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_bootstrap
- *= require bootstrap-theme
- *= require_tree .
  *= require_self
+ *= require_tree .
  */
 
-
-*, html {
-    font-size: 12px;
-    padding: 0;
-    margin: 0;
-}
-
 .container {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+  width: 960px;
 }
 
-.content,
-.content p {
-    margin: 0 auto;
-    max-width: 1080px;
-    padding: 10px 0 30px 0;
-    font-family: 'OpenSansSemiBold', sans-serif;
-    text-align: left;
+section.products {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-.content p,
-.content p a:link,
-.content p a:active,
-.content p a:visited {
-    text-decoration: none;
-    color: #777;
-    font-size: 1.25rem;
-    position: relative;
-    text-align: center;
-    letter-spacing: -.5px;
-    text-transform: uppercase;
+section.products article {
+  display: inline-block;
+  width: 300px;
+  margin: 0;
+  padding: 0;
 }
 
-img {
-    width: 80%;
-    height: 80%;
-    padding: 15px;
+section.products article img {
+  width: 300px;
+  padding: 0;
+  margin: 0;
 }
-
-#logo {
-    margin: 0 auto;
-    text-align: center;
-    clear: both;
-    width: 300px;
-}
-
-.columns {
-    clear: both;
-    margin: 15px;
-}
-
-.third {
-    max-width: 29.6875%;
-    margin: 0 5.46875% 25px 0;
-    float: left;
-    text-align: center;
-}
-
-.last {
-    margin-right: 0;
-}
-
-.hr {
-    clear: both;
-    width: 100%;
-    padding-top: 30px;
-    margin-bottom: 50px;
-    border-bottom: 1px solid #ccc;
-}
-
-h1 {
-    font-size: 1.75rem;
-    padding: 10px 0;
-    text-align: left;
-    color: #777;
-}
-
-.primary-button {
-    padding: 15px;
-    text-align: center;
-    background: #59c5c6!important;
-    width: 80px;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 5px 5px 5px 5px;
-    -moz-border-radius: 5px 5px 5px 5px;
-    -webkit-border-radius: 5px 5px 5px 5px;
-    -o-border-radius: 5px 5px 5px 5px;
-    box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
-    -webkit-box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
-    -o-box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
-    transition: opacity 0.3s linear;
-    -moz-transition: opacity 0.3s linear;
-    -webkit-transition: opacity 0.3s linear;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-#top-login {
-    float: right;
-    margin: 15px;
-}
-
-.primary-button a:active,
-.primary-button a:visited {
-    color: #ffffff;
-    text-decoration: none!important;
-
-}
-
-.form {
-    width: 400px;
-    max-height: 800px;
-    margin: 0 auto;
-    padding: 30px;
-    background: #ecebe9 url('http://betamore.com/wp-content/themes/betamore/img/mail_border.png') repeat-x top;
-}
-
-.form label, .form label p, .form p {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    margin-top: 15px;
-    text-align: left;
-}
-
-.form input {
-    width: 300px;
-    height: 25px;
-}
-
-input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
-    margin-top: 15px;
-    clear: both;
-    display: block;
-}
-
-#footer {
-    padding: 20px;
-    font-size: 13px;
-    background-color: #1f1f1f;
-    border-top: 1px solid #3a3a3a;
-    color: #777;
-}
-    }

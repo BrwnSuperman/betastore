@@ -1,46 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Betastore</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link href='/app/assets/stylesheets/application.css' rel='stylesheet' type='text/css'>
-
-</head>
-<body>
-
-<div class="container">
-
-  <div class="content">
-
-    <div class="primary-button" id="top-login">
-      <% if cookies[:email].present? %>
-          <%= link_to "Logout", log_out_path, method: 'post' %>
-      <% else %>
-          <%= link_to "Login", log_in_path, method: 'post' %>
-      <% end %>
-    </div>
-
-    <div class="header">
-
-      <div id="logo"><%= image_tag "http://baltimoreinnovationweek.com/wp-content/uploads/2013/07/betamore-logo1.jpg" %></div>
-
-      <div class="hr"></div>
-
+  <head>
+    <title>Betastore</title>
+    <%= stylesheet_link_tag "application", "subscriptions" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div class="container">
+      <%= image_tag "logo.jpg", width: 600 %>
       <%= yield %>
+      <%= render 'layouts/footer' %>
     </div>
-
-
-  </div> <!--End Content -->
-
-  <div id="footer">
-    <p>copyright &copy; Betamore 2013. All rights reserved</p>
-
-  </div>
-
-</div> <!--End Container -->
-
-</body>
+  </body>
 </html>
