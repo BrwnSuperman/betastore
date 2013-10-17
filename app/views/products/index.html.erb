@@ -1,14 +1,15 @@
+<br>
 <% if logged_in? %>
-  <%= link_to "Log Out", log_out_path, method: 'post' %>
+  <%= link_to "Log Out", log_out_path, method: 'post', class: 'btn btn-info btn-lg' %>
 <% else %>
-  <%= link_to "Log In", log_in_path %>
+  <%= link_to "Log In", log_in_path, class: 'btn btn-info btn-lg'  %>
 <% end %>
 
 <section class="products">
   <% @products.each do |product| %>
     <article>
       <%= image_tag product.image_url %>
-      <h2><%= link_to product_title(product).html_safe, product_path(product) %></h2>
+      <%= link_to product_title(product).html_safe, product_path(product), class: 'btn btn-warning .btn-block'%>
       <p>
         <%= number_to_currency product.price %>,
         Added <%= time_ago_in_words product.created_at %> ago
