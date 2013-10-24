@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131022210432) do
+ActiveRecord::Schema.define(version: 20131024233236) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,8 +23,6 @@ ActiveRecord::Schema.define(version: 20131022210432) do
     t.datetime "updated_at"
     t.string   "password_digest"
     t.string   "auth_token"
-    t.string   "password_reset_token"
-    t.datetime "password_reset_sent_at"
   end
 
   create_table "line_items", force: true do |t|
@@ -50,14 +48,13 @@ ActiveRecord::Schema.define(version: 20131022210432) do
   add_index "orders", ["customer_id"], name: "index_orders_on_customer_id", using: :btree
 
   create_table "password_resets", force: true do |t|
-    t.integer  "customer_id"
+    t.integer  "customer_id_id"
     t.string   "token"
-    t.datetime "used_at"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "password_resets", ["customer_id"], name: "index_password_resets_on_customer_id", using: :btree
+  add_index "password_resets", ["customer_id_id"], name: "index_password_resets_on_customer_id_id", using: :btree
 
   create_table "products", force: true do |t|
     t.string   "name"

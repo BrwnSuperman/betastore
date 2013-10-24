@@ -5,7 +5,7 @@ Betastore::Application.routes.draw do
   end
 
   resources :products
-  resources :password_resets
+
   resources :subscriptions, only: [:new, :create, :show]
 
   resources :orders do
@@ -19,5 +19,9 @@ Betastore::Application.routes.draw do
   post '/log_in'  => 'log_ins#create'
   post '/log_out' => 'log_ins#destroy', as: 'log_out'
 
+  get '/forgot_password' => 'password_resets#new', as: 'forgot_password'
+  post '/forgot_password' => 'password_resets#create'
+
   root :to => 'products#index'
+
 end
