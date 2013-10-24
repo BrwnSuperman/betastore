@@ -5,7 +5,7 @@ Betastore::Application.routes.draw do
   end
 
   resources :products
-
+  resources :password_resets
   resources :subscriptions, only: [:new, :create, :show]
 
   resources :orders do
