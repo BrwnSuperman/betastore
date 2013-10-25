@@ -9,10 +9,18 @@ class PasswordResetsControllerTest < ActionController::TestCase
     assert_select 'input[name=email]'
   end
 
-  test "forgot password create" do
+  test "forgot password with existing email" do
     assert_difference 'PasswordReset.count' do
-      post :create
+      post :create, email: customers(:test).email
     end
     assert_redirected_to log_in_path
+  end
+
+  test "forgot password with non-existent email" do
+    assert_difference 'PasswordReset.count' do
+      post :create, email: 'fail@example.com'
+    end
+    assert_response :success
+    assert_select '.error', 'could not find account'
   end
 end

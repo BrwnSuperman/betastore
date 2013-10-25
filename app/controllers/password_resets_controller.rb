@@ -3,14 +3,11 @@ class PasswordResetsController < ApplicationController
   skip_before_filter :require_log_in
 
   def create
-     redirect_to log_in_path
+    customer = Customer.find_by(email: params[:email])
+    password_reset = customer.password_resets.build
+    password_reset.save
+    redirect_to log_in_path
   end
-  #
-  #def create
-  #  customer = Customer.find_by_email(params[:email])
-  #  customer.send_password_reset if customer
-  #  redirect_to root_url, :notice => "Email sent with password reset instructions."
-  #end
   #
   #def edit
   #  @customer = Customer.find_by_password_reset_token!(params[:id])

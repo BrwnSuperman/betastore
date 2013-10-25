@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ruby" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131024233236_create_password_resets.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/password_resets/new.html.erb" />
-      <change type="DELETED" beforePath="C:\Users\Tanveer\RubymineProjects\betastore\app\views\password_resets\new.html.haml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Tanveer\RubymineProjects\betastore\db\migrate\20131010234650_create_password_resets.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/log_ins/index.html.erb" afterPath="$PROJECT_DIR$/app/views/log_ins/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/password_resets/index.html.erb" afterPath="$PROJECT_DIR$/app/views/password_resets/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20131025001017_add_used_at_to_password_resets.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/customers.yml" afterPath="$PROJECT_DIR$/test/fixtures/customers.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/password_reset.rb" afterPath="$PROJECT_DIR$/app/models/password_reset.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/password_reset_test.rb" afterPath="$PROJECT_DIR$/test/models/password_reset_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/password_resets.yml" afterPath="$PROJECT_DIR$/test/fixtures/password_resets.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="betastore.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382657328520" ignored="false" />
+    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382658985364" ignored="false" />
     <file path="/database.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380662043276" ignored="false" />
     <file path="/products.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380672714680" ignored="false" />
     <file path="/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382656772912" ignored="false" />
@@ -54,10 +47,13 @@
     <file path="/orders.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382484619711" ignored="false" />
     <file path="/products_controller_test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382489230080" ignored="false" />
     <file path="/show.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382490022715" ignored="false" />
-    <file path="/password_resets_controller_test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382657063705" ignored="false" />
-    <file path="/password_resets_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382656846309" ignored="false" />
-    <file path="/password_reset_test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382657365993" ignored="false" />
+    <file path="/password_resets_controller_test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382661777267" ignored="false" />
+    <file path="/password_resets_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382660976580" ignored="false" />
+    <file path="/password_reset_test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382661484098" ignored="false" />
     <file path="/password_reset.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382658075303" ignored="false" />
+    <file path="/customers.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382661445374" ignored="false" />
+    <file path="/20131025001017_add_used_at_to_password_resets.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382660100469" ignored="false" />
+    <file path="/password_resets.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382661453846" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
             <file leaf-file-name="password_resets_controller.rb" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="9" column="47" selection-start="284" selection-end="284" vertical-scroll-proportion="0.52397263">
+                  <state line="8" column="4" selection-start="319" selection-end="319" vertical-scroll-proportion="0.45637584">
                     <folding />
                   </state>
                 </provider>
@@ -101,7 +97,7 @@
             <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app/views/password_resets/new.html.erb">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="5" column="27" selection-start="158" selection-end="158" vertical-scroll-proportion="0.34552845">
+                  <state line="3" column="4" selection-start="33" selection-end="33" vertical-scroll-proportion="0.20731707">
                     <folding />
                   </state>
                 </provider>
@@ -118,7 +114,7 @@
             <file leaf-file-name="password_resets_controller_test.rb" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="7" column="34" selection-start="234" selection-end="234" vertical-scroll-proportion="0.43272728">
+                  <state line="14" column="75" selection-start="447" selection-end="447" vertical-scroll-proportion="0.32">
                     <folding />
                   </state>
                 </provider>
@@ -138,43 +134,7 @@
       <file leaf-file-name="password_reset.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/password_reset.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20131010221546_create_customers.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20131010221546_create_customers.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="28" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/models/customer_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customers_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/models/customers_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="10" column="7" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,23 +143,41 @@
       <file leaf-file-name="password_reset_test.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/models/password_reset_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.23943663">
+            <state line="8" column="76" selection-start="256" selection-end="256" vertical-scroll-proportion="0.23943663">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20131024233236_create_password_resets.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20131024233236_create_password_resets.rb">
+      <file leaf-file-name="customers.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/customers.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+            <state line="2" column="4" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20131010221925_add_password_digest_to_customers.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20131010221925_add_password_digest_to_customers.rb">
+      <file leaf-file-name="20131025001017_add_used_at_to_password_resets.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131025001017_add_used_at_to_password_resets.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="53" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password_resets.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/password_resets.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="16" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orders.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/orders.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -207,19 +185,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20131022210324_add_auth_token_to_customers.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20131022210324_add_auth_token_to_customers.rb">
+      <file leaf-file-name="line_items.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/line_items.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="41" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="products.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/products.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="65" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="refunds.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/refunds.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscriptions.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/subscriptions.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -243,9 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/customer.rb" />
-        <option value="$PROJECT_DIR$/app/views/password_resets/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/refund/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/password_resets/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/log_ins/index.html.erb" />
@@ -254,17 +247,20 @@
         <option value="$PROJECT_DIR$/app/views/password_resets/new.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/mime_types.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
-        <option value="$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb" />
-        <option value="$PROJECT_DIR$/test/models/password_reset_test.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131024233236_create_password_resets.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131025001017_add_used_at_to_password_resets.rb" />
         <option value="$PROJECT_DIR$/app/models/password_reset.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/customers.yml" />
+        <option value="$PROJECT_DIR$/test/fixtures/password_resets.yml" />
+        <option value="$PROJECT_DIR$/test/models/password_reset_test.rb" />
+        <option value="$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="366" />
-    <option name="y" value="105" />
+    <option name="x" value="181" />
+    <option name="y" value="89" />
     <option name="width" value="1541" />
     <option name="height" value="781" />
   </component>
@@ -379,6 +375,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1218,11 +1232,15 @@
       <created>1382650596205</created>
       <updated>1382650596205</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Password Reset Test">
+      <created>1382658988323</created>
+      <updated>1382658988323</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="105" width="1541" height="781" extended-state="0" />
+    <frame x="181" y="89" width="1541" height="781" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1231,7 +1249,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.6619256" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2085308" sideWeight="0.6706783" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2085308" sideWeight="0.6706783" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1318,41 +1336,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="397" selection-end="397" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/mime_types.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="284" selection-end="284" vertical-scroll-proportion="0.52397263">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="65" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1362,70 +1345,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131010221546_create_customers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/customer_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/customers_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131024233236_create_password_resets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131010221925_add_password_digest_to_customers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="234" selection-end="234" vertical-scroll-proportion="0.43272728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/password_resets/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="158" selection-end="158" vertical-scroll-proportion="0.34552845">
+        <state line="5" column="28" selection-start="139" selection-end="139" vertical-scroll-proportion="0.1443124">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131022210324_add_auth_token_to_customers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="41" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+        <state line="5" column="70" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131025001017_add_used_at_to_password_resets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="53" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/orders.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/line_items.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/products.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/refunds.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/subscriptions.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/password_resets.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/customers.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/password_reset.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+        <state line="10" column="7" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="33" selection-end="33" vertical-scroll-proportion="0.20731707">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="319" selection-end="319" vertical-scroll-proportion="0.45637584">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/models/password_reset_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.23943663">
+        <state line="8" column="76" selection-start="256" selection-end="256" vertical-scroll-proportion="0.23943663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="75" selection-start="447" selection-end="447" vertical-scroll-proportion="0.32">
           <folding />
         </state>
       </provider>
