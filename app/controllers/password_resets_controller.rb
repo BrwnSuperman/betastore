@@ -4,9 +4,14 @@ class PasswordResetsController < ApplicationController
 
   def create
     customer = Customer.find_by(email: params[:email])
-    password_reset = customer.password_resets.build
-    password_reset.save
-    redirect_to log_in_path
+    if customer
+      password_reset = customer.password_resets.build
+      password_reset.save!
+      redirect_to log_in_path
+    else
+      @error = 'Could not find an account matching that email address'
+      render 'new'
+    end
   end
   #
   #def edit

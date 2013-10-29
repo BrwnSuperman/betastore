@@ -1,5 +1,9 @@
 <h1>Reset Password</h1>
 
+<% if params[:email].present? %>
+     <div class='error'>Could not find an account matching that email address</div>
+<% end %>
+
 <p>
 Can't remember your password? No problem! Just enter your email address and we'll send you instructions on how to reset it.
 </p>
