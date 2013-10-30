@@ -44,6 +44,10 @@ end
 # Use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
 
+gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
+    :github => 'anjlab/bootstrap-rails',
+    :branch => '3.0.0'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 

@@ -3,6 +3,7 @@
 test:
   name: Test
   email: test@example.com
+  password_digest: <%= BCrypt::Password.create('password') %>
 
 two:
   name: MyString
