@@ -1,15 +1,22 @@
 <br>
-<% if logged_in? %>
-  <%= link_to "Log Out", log_out_path, method: 'post', class: 'btn btn-info btn-lg', style: 'text-align:center' %>
-<% else %>
-  <%= link_to "Log In", log_in_path, class: 'btn btn-info btn-lg', style: 'text-align:center'  %>
+<h4><%= link_to cart_items_path, class: 'cart' do %>
+    Cart (<span id="cart_item_count"><%= cart_item_count %> </span>)
 <% end %>
+</h4>
+<% if logged_in? %>
+  <%= button_to "Log Out", log_out_path, method: 'post', class: 'btn btn-info btn-lg', style: 'text-align:center' %>
+<% else %>
+  <%= button_to "Log In", log_in_path, class: 'btn btn-info btn-lg', style: 'text-align:center'  %>
+<% end %>
+
+<div id="cart" style="display: none"></div>
 
 <section class="products">
   <% @products.each do |product| %>
     <article>
       <%= image_tag product.image_url %>
-      <%= link_to product_title(product).html_safe, product_path(product), class: 'btn btn-warning .btn-block'%>
+      <h2><%= link_to product_title(product).html_safe, product_path(product)%></h2>
+      <%= button_to "Add To Cart", add_to_cart_path(product), class: 'btn-primary add_to_cart' %>
       <p>
         <%= number_to_currency product.price %>,
         Added <%= time_ago_in_words product.created_at %> ago

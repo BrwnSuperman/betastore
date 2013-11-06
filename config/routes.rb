@@ -12,7 +12,11 @@ Betastore::Application.routes.draw do
     resource :refund
   end
 
-   get '/sign_up' => 'customers#new', as: 'sign_up'
+  get '/cart_items' => 'cart_items#index', as: 'cart_items'
+
+  post '/products/:product_id/cart_items/new' => 'cart_items#create', as: 'add_to_cart'
+
+  get '/sign_up' => 'customers#new', as: 'sign_up'
   post '/sign_up' => 'customers#create'
 
    get '/log_in'  => 'log_ins#new', as: 'log_in'

@@ -14,4 +14,14 @@ class ApplicationController < ActionController::Base
   def logged_in?
     cookies.signed[:customer_id].present?
   end
+
+  helper_method :cart_item_count
+  def cart_item_count
+    if session[:cart]
+      session[:cart].values.sum
+    else
+      0
+    end
+  end
+
 end

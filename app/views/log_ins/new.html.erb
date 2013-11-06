@@ -15,9 +15,9 @@
     <%= password_field_tag :password %>
   </div>
   
-  <%= button_tag "Log In" %>
+  <%= button_tag "Log In", class: 'btn-success' %>
 <% end %>
 
-<p>Don't have an account yet? <%= link_to "Sign Up", sign_up_path %></p>
+<p>Don't have an account yet? <%= button_to "Sign Up", sign_up_path, class: 'btn-success' %></p>
 
-<p> <%= link_to "Forgot your password?", forgot_password_path %> </p>
+<p> <%= button_to "Forgot your password?", forgot_password_path, class: 'btn-success' %> </p>
