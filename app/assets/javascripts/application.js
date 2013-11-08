@@ -37,7 +37,9 @@ $(document).ready(function(){
                 dataType: 'json',
                 success: function(json) {
                     $('#cart_item_count').text(json.item_count);
+                    $.get('/cart', function(html) {
                     $('#cart').html(html).update();
+                    });
                 }
             });
         } catch(e) {

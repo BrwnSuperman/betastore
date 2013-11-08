@@ -8,12 +8,10 @@ Betastore::Application.routes.draw do
 
   resources :subscriptions, only: [:new, :create, :show]
 
-  resources :orders do
-    resource :refund
-  end
+  get '/checkout' => 'orders#new', as: 'checkout'
+  post '/checkout' => 'orders#create'
 
   get '/cart_items' => 'cart_items#index', as: 'cart_items'
-
   post '/products/:product_id/cart_items/new' => 'cart_items#create', as: 'add_to_cart'
 
   get '/sign_up' => 'customers#new', as: 'sign_up'

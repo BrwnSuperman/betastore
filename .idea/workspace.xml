@@ -2,41 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/cart_item.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/cart_items_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cart_items/index.html.erb" />
+      <change type="DELETED" beforePath="C:\Users\Tanveer\RubymineProjects\betastore\app\views\orders\_order.html.erb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/log_ins/new.html.erb" afterPath="$PROJECT_DIR$/app/views/log_ins/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cart_items/index.html.erb" afterPath="$PROJECT_DIR$/app/views/cart_items/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/line_item.rb" afterPath="$PROJECT_DIR$/app/models/line_item.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/orders/new.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/order.rb" afterPath="$PROJECT_DIR$/app/models/order.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="betastore.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383691867325" ignored="false" />
-    <file path="/database.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380662043276" ignored="false" />
+    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383864945185" ignored="false" />
+    <file path="/database.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383767586490" ignored="false" />
     <file path="/products.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380672714680" ignored="false" />
-    <file path="/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383693652320" ignored="false" />
+    <file path="/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383869403665" ignored="false" />
     <file path="/products_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382058508532" ignored="false" />
     <file path="/seeds.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381797497255" ignored="false" />
     <file path="/product.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380678314643" ignored="false" />
-    <file path="/index.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383699280466" ignored="false" />
+    <file path="/index.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383871263825" ignored="false" />
     <file path="/log_ins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381876864597" ignored="false" />
     <file path="/application_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383175264118" ignored="false" />
     <file path="/refund.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380847329068" ignored="false" />
-    <file path="/order.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381270686586" ignored="false" />
-    <file path="/new.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383172567127" ignored="false" />
+    <file path="/order.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383874041569" ignored="false" />
+    <file path="/new.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383874527206" ignored="false" />
     <file path="/customer.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382650270875" ignored="false" />
-    <file path="/Gemfile" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383692783060" ignored="false" />
+    <file path="/Gemfile" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383770118440" ignored="false" />
     <file path="/products.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382052090147" ignored="false" />
     <file path="/subscription.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381280595286" ignored="false" />
     <file path="/customer_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381442149211" ignored="false" />
     <file path="/customers_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381442783178" ignored="false" />
     <file path="/.gemrc2" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381449609476" ignored="false" />
-    <file path="/application.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383181622968" ignored="false" />
+    <file path="/application.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383866901451" ignored="false" />
     <file path="/thing.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381875652510" ignored="false" />
     <file path="/something.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381875683847" ignored="false" />
     <file path="/application.css" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382052106796" ignored="false" />
@@ -63,9 +62,9 @@
     <file path="$PROJECT_DIR$/log/development.log" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383090291611" ignored="false" />
     <file path="/edit.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383094386691" ignored="false" />
     <file path="/cart_items_controller_test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383695397820" ignored="false" />
-    <file path="/cart_items_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383698876091" ignored="false" />
+    <file path="/cart_items_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383874076015" ignored="false" />
     <file path="/application_helper.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383175146203" ignored="false" />
-    <file path="/application.js" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383701480797" ignored="false" />
+    <file path="/application.js" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383702782266" ignored="false" />
     <file path="$USER_HOME$/Documents/GitHub/Pluribus/Gemfile" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383689732517" ignored="false" />
     <file path="$USER_HOME$/Documents/GitHub/Pluribus/config/application.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383690557802" ignored="false" />
     <file path="$USER_HOME$/Documents/GitHub/Pluribus/Gemfile.lock" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383689737952" ignored="false" />
@@ -75,6 +74,34 @@
     <file path="$PROJECT_DIR$/../Pluribus/Gemfile.lock" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383692809645" ignored="false" />
     <file path="/Gemfile.lock" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383692627700" ignored="false" />
     <file path="/cart_item.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383694046158" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/database.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383767586490" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383867243754" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/subscriptions/_form.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383767969259" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/Gemfile" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383865289274" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/db/migrate/20131106224905_create_users.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383778465687" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/db/schema.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383779391046" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/.idea/workspace.xml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383856180699" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/db/migrate/20131106230102_create_projects.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383778894528" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/models/user.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383779075139" ignored="false" />
+    <file path="/user.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383866521640" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/models/project.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383779512670" ignored="false" />
+    <file path="/project.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383779467621" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/db/migrate/20131106230620_add_admin_to_users.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383779214469" ignored="false" />
+    <file path="/20131106230620_add_admin_to_users.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383779214469" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/initializers/secret_token.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383863994889" ignored="false" />
+    <file path="/secret_token.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383863992668" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/.gitignore" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383864378176" ignored="false" />
+    <file path="/.gitignore" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383864378176" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/static_pages_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383865090156" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/static_pages/about.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383865159718" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/static_pages/home.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383865239765" ignored="false" />
+    <file path="/orders_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383869714321" ignored="false" />
+    <file path="/orders_controller_test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383868487736" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pluribus/app/models/user.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383866528324" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/javascripts/application.js" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383866840686" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/layouts/application.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383866901451" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/layouts/_navbar.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383867459962" ignored="false" />
+    <file path="/_order.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383868263879" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,111 +120,61 @@
     <groupTables value="false" />
     <sortChildren value="false" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/app/views/cart_items/index.html.erb">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="4" column="65" selection-start="57" selection-end="57" vertical-scroll-proportion="0.14686824">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="betastore" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/orders/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="9" selection-start="724" selection-end="724" vertical-scroll-proportion="0.51328504">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="line_item.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/line_item.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="3" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/cart_items/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="66" selection-start="162" selection-end="162" vertical-scroll-proportion="-3.2692308">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="80" selection-start="736" selection-end="736" vertical-scroll-proportion="0.2857143">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart_item.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/cart_item.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+            <state line="15" column="20" selection-start="341" selection-end="341" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="order.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/order.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="51" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+            <state line="17" column="3" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="orders_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/orders_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="38" selection-start="447" selection-end="447" vertical-scroll-proportion="-5.8846154">
+            <state line="8" column="24" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <file leaf-file-name="customers_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="metal.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="4" selection-start="4149" selection-end="4191" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart_items_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/cart_items_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="8" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart_items_controller_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/cart_items_controller_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="10" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -221,27 +198,26 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/mailers/customer_mailer.rb" />
-        <option value="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/log_ins/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/cart_items/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/cart_item.rb" />
-        <option value="$PROJECT_DIR$/app/views/cart_items/index.html.erb" />
         <option value="$PROJECT_DIR$/test/controllers/cart_items_controller_test.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/orders/_order.html.erb" />
+        <option value="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/cart_items/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/line_item.rb" />
+        <option value="$PROJECT_DIR$/app/models/order.rb" />
+        <option value="$PROJECT_DIR$/app/views/orders/new.html.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -413,6 +389,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="password_resets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cart_items" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -485,28 +505,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="betastore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="betastore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -515,14 +513,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="131" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="148" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="156" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="156" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PluribusFund" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="155" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="834" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="151" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="144" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -537,8 +535,8 @@
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1123,18 +1121,23 @@
       <created>1383171523340</created>
       <updated>1383171523340</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Cart added">
+      <created>1383702065482</created>
+      <updated>1383702065482</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="960" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.6619256" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34933037" sideWeight="0.5973742" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35825893" sideWeight="0.5973742" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1143,7 +1146,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41484717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1193,7 +1195,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Password Reset Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cart added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1218,122 +1220,121 @@
     <MESSAGE value="Products displayed!" />
     <MESSAGE value="Test changes" />
     <MESSAGE value="Password Reset Test" />
+    <MESSAGE value="Cart added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/products/index.rss.builder">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+        <state line="19" column="35" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_controller/metal.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="4" selection-start="4149" selection-end="4191" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="44" selection-start="3019" selection-end="3019" vertical-scroll-proportion="0.47381243">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="173" selection-end="173" vertical-scroll-proportion="0.14285715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="552" selection-end="552" vertical-scroll-proportion="0.47058824">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="447" selection-end="447" vertical-scroll-proportion="-5.8846154">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="66" selection-start="162" selection-end="162" vertical-scroll-proportion="-3.2692308">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="5" column="63" selection-start="162" selection-end="162" vertical-scroll-proportion="0.10532837">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="51" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+        <state line="8" column="56" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/cart_item.rb">
+    <entry file="file://$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+        <state line="9" column="93" selection-start="293" selection-end="293" vertical-scroll-proportion="0.019906323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/cart_items_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+        <state line="7" column="23" selection-start="245" selection-end="245" vertical-scroll-proportion="0.14285715">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/customer_controller_test.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/log_ins/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/orders_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="24" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/cart_items/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="65" selection-start="57" selection-end="57" vertical-scroll-proportion="0.14686824">
+        <state line="15" column="20" selection-start="341" selection-end="341" vertical-scroll-proportion="-9.807693">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/cart_items_controller_test.rb">
+    <entry file="file://$PROJECT_DIR$/test/controllers/orders_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+        <state line="15" column="3" selection-start="0" selection-end="397" vertical-scroll-proportion="0.29411766">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/models/cart_item.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="80" selection-start="736" selection-end="736" vertical-scroll-proportion="0.2857143">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="4" column="22" selection-start="110" selection-end="110" vertical-scroll-proportion="0.078431375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/line_item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="3" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/order.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="3" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/orders/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="9" selection-start="724" selection-end="724" vertical-scroll-proportion="0.51328504">
+          <folding />
         </state>
       </provider>
     </entry>
