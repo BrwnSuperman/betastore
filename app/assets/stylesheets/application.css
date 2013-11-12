@@ -20,6 +20,13 @@ section.products {
   text-align: center;
 }
 
+#logo {
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    width: 500px;
+}
+
 section.products article {
   display: inline-block;
   width: 300px;

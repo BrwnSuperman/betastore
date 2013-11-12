@@ -9,8 +9,8 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+  <div id="logo"><a href="/products/"><%= image_tag "logo.jpg" %></a></div>
     <div class="container">
-      <%= image_tag "logo.jpg", width: '70%' %>
       <% if flash[:alert] %>
           <p class="alert alert-warning"><%= flash[:alert] %></p>
       <% end %>

@@ -27,6 +27,8 @@ Betastore::Application.routes.draw do
   get '/reset_password/:id/:token;' => 'password_resets#edit', as: 'reset_password'
   post '/reset_password/:id/:token;' => 'password_resets#update'
 
+  get '/:action', :controller => 'pages'
+
   root :to => 'products#index'
 
 end
