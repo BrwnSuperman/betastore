@@ -1,26 +1,44 @@
-<br>
-<h4><%= link_to cart_items_path, class: 'cart' do %>
-    Cart (<span id="cart_item_count"><%= cart_item_count %> </span>)
+<br/>
+<%= link_to cart_items_path, class: 'cart' do %>
+    Cart (<span id="cart_item_count"><%= cart_item_count %></span>)
 <% end %>
-</h4>
+|
 <% if logged_in? %>
-  <%= button_to "Log Out", log_out_path, method: 'post', class: 'btn btn-info btn-lg', style: 'text-align:center' %>
+    <%= link_to "Log Out", log_out_path, method: 'post' %>
 <% else %>
-  <%= button_to "Log In", log_in_path, class: 'btn btn-info btn-lg', style: 'text-align:center'  %>
+    <%= link_to "Log In", log_in_path %>
 <% end %>
 
 <div id="cart" style="display: none"></div>
 
+<h3>Categories</h3>
+<ul>
+  <% @categories.each do |category| %>
+      <li><%= link_to category.name, category_products_path(category) %></li>
+  <% end %>
+</ul>
+
+<h3>Price</h3>
+<ul>
+  <% [4.99, 9.99, 14.99].each do |price| %>
+      <li><%= link_to "#{price} and up", min_price: price %></li>
+  <% end %>
+</ul>
+
 <section class="products">
   <% @products.each do |product| %>
-    <article>
-      <%= image_tag product.image_url %>
-      <h2><%= link_to product_title(product).html_safe, product_path(product)%></h2>
-      <%= button_to "Add To Cart", add_to_cart_path(product), class: 'btn-primary add_to_cart' %>
-      <p>
-        <%= number_to_currency product.price %>,
-        Added <%= time_ago_in_words product.created_at %> ago
-      </p>
-    </article>
+      <article>
+        <%= image_tag product.image_url %>
+        <h2><%= link_to product_title(product).html_safe, product_path(product) %></h2>
+        <p>
+          <%= number_to_currency product.price %>,
+          Added <%= time_ago_in_words product.created_at %> ago
+        </p>
+        <p>
+          <%= button_to "Add To Cart", add_to_cart_path(product), class: 'btn btn-primary add_to_cart' %>
+        </p>
+      </article>
   <% end %>
 </section>
+
+<%= paginate @products %>
