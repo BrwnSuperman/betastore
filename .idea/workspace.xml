@@ -2,37 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/customers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cart_items/index.html.erb" afterPath="$PROJECT_DIR$/app/views/cart_items/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/line_item.rb" afterPath="$PROJECT_DIR$/app/models/line_item.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/customers/new.html.erb" afterPath="$PROJECT_DIR$/app/views/customers/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/category.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/credit_card.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/orders/new.html.erb" afterPath="$PROJECT_DIR$/app/views/orders/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/order.rb" afterPath="$PROJECT_DIR$/app/models/order.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="betastore.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384290676809" ignored="false" />
+    <file path="/Dummy.txt" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384970729725" ignored="false" />
     <file path="/database.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383767586490" ignored="false" />
     <file path="/products.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380672714680" ignored="false" />
-    <file path="/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384106800765" ignored="false" />
+    <file path="/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384716293656" ignored="false" />
     <file path="/products_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382058508532" ignored="false" />
     <file path="/seeds.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381797497255" ignored="false" />
     <file path="/product.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380678314643" ignored="false" />
-    <file path="/index.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383871263825" ignored="false" />
-    <file path="/log_ins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381876864597" ignored="false" />
-    <file path="/application_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383175264118" ignored="false" />
+    <file path="/index.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384717051565" ignored="false" />
+    <file path="/log_ins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384642386444" ignored="false" />
+    <file path="/application_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384906654440" ignored="false" />
     <file path="/refund.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1380847329068" ignored="false" />
     <file path="/order.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384291164172" ignored="false" />
-    <file path="/new.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383874527206" ignored="false" />
+    <file path="/new.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384958631290" ignored="false" />
     <file path="/customer.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382650270875" ignored="false" />
-    <file path="/Gemfile" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383770118440" ignored="false" />
+    <file path="/Gemfile" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384966951808" ignored="false" />
     <file path="/products.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382052090147" ignored="false" />
     <file path="/subscription.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381280595286" ignored="false" />
     <file path="/customer_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381442149211" ignored="false" />
@@ -41,7 +34,7 @@
     <file path="/application.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383874909148" ignored="false" />
     <file path="/thing.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381875652510" ignored="false" />
     <file path="/something.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1381875683847" ignored="false" />
-    <file path="/application.css" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382052106796" ignored="false" />
+    <file path="/application.css" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384911445233" ignored="false" />
     <file path="/mime_types.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382050512651" ignored="false" />
     <file path="/index.rss.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382052218070" ignored="false" />
     <file path="/index.rss.builder" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1382053072858" ignored="false" />
@@ -63,7 +56,7 @@
     <file path="/password_reset.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383089079902" ignored="false" />
     <file path="/test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383088888152" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383090291611" ignored="false" />
-    <file path="/edit.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383094386691" ignored="false" />
+    <file path="/edit.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384907762344" ignored="false" />
     <file path="/cart_items_controller_test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383695397820" ignored="false" />
     <file path="/cart_items_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383874076015" ignored="false" />
     <file path="/application_helper.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383175146203" ignored="false" />
@@ -78,38 +71,126 @@
     <file path="/Gemfile.lock" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383692627700" ignored="false" />
     <file path="/cart_item.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383694046158" ignored="false" />
     <file path="$PROJECT_DIR$/../PluribusFund/config/database.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383767586490" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/config/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384106812260" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965900095" ignored="false" />
     <file path="$PROJECT_DIR$/../PluribusFund/app/views/subscriptions/_form.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383767969259" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/Gemfile" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383865289274" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/db/migrate/20131106224905_create_users.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383778465687" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/db/schema.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384022596068" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/.idea/workspace.xml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384108088534" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/db/migrate/20131106230102_create_projects.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383778894528" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/app/models/user.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384021930839" ignored="false" />
-    <file path="/user.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383866521640" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/app/models/project.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383779512670" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/Gemfile" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968954819" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/db/migrate/20131106224905_create_users.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384711155262" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/db/schema.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384967043754" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/.idea/workspace.xml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384929229777" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/db/migrate/20131106230102_create_projects.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384708172918" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/models/user.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965219662" ignored="false" />
+    <file path="/user.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965206646" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/models/project.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384707306848" ignored="false" />
     <file path="/project.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383779467621" ignored="false" />
     <file path="$PROJECT_DIR$/../PluribusFund/db/migrate/20131106230620_add_admin_to_users.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383779214469" ignored="false" />
     <file path="/20131106230620_add_admin_to_users.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383779214469" ignored="false" />
     <file path="$PROJECT_DIR$/../PluribusFund/config/initializers/secret_token.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383863994889" ignored="false" />
     <file path="/secret_token.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383863992668" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/.gitignore" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383864378176" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/.gitignore" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1385068896019" ignored="false" />
     <file path="/.gitignore" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383864378176" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/static_pages_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383865090156" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/app/views/static_pages/about.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383865159718" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/app/views/static_pages/home.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383865239765" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/static_pages_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384706907201" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/static_pages/about.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384716431118" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/static_pages/home.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384721839199" ignored="false" />
     <file path="/orders_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383869714321" ignored="false" />
     <file path="/orders_controller_test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383868487736" ignored="false" />
     <file path="$PROJECT_DIR$/../Pluribus/app/models/user.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383866528324" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/javascripts/application.js" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383866840686" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/app/views/layouts/application.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383866901451" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/app/views/layouts/_navbar.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384040642891" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/javascripts/application.js" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965035010" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/layouts/application.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384710207715" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/layouts/_navbar.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968804804" ignored="false" />
     <file path="/_order.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1383868263879" ignored="false" />
     <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/password_resets_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384022076642" ignored="false" />
     <file path="$PROJECT_DIR$/../PluribusFund/app/mailers/contact_form.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384022139402" ignored="false" />
     <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/subscriptions_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384022343173" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/log_ins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384022615619" ignored="false" />
-    <file path="$PROJECT_DIR$/../PluribusFund/app/views/layouts/_footer.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384041222644" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/log_ins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384642389713" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/layouts/_footer.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384910542087" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/application.css" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965079881" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/Gemfile.lock" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968960282" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/custom.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384720028800" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pluribus/config/routes.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384616844711" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/index.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384719604092" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/application.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384622042399" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/log_ins.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384622119552" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/environments/production.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965538116" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/static_pages.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384622119552" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/users.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384622119552" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/subscriptions.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384622119552" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/projects.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384622119552" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/bootstrap_and_overrides.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384621162267" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/.idea/PluribusFund.iml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384709067055" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/javascripts/theme.js" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384622075237" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/projects/edit.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384622588921" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/projects/show.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384622610562" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/log_ins/index.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384623557489" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/users/new.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384623656037" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/customer_mailer/password_reset.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384623684519" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/application_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384906655737" ignored="false" />
+    <file path="/_navbar.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968804804" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/users_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384906542960" ignored="false" />
+    <file path="/users_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384906542308" ignored="false" />
+    <file path="/20131106224905_create_users.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384642284267" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/vendor/assets/javascripts/underscore.js" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384708141689" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/db/seeds.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384966067853" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/locations_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384707911209" ignored="false" />
+    <file path="/raisefunds.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384718585961" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/static_pages/raisefunds.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384718595853" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/users/_form.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384708647784" ignored="false" />
+    <file path="/_form.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384708636252" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/environments/development.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384966544813" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/admin_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384710748648" ignored="false" />
+    <file path="/admins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384710780498" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/controllers/admins_controller.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384711398353" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/models/admin.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384711317861" ignored="false" />
+    <file path="/admin.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384711305239" ignored="false" />
+    <file path="C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_view/helpers/url_helper.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384716732921" ignored="false" />
+    <file path="/url_helper.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384716698123" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/theme.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384720973650" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/z.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384721940502" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/scaffolds.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384719600215" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/flexslider.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384719609488" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/animate.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384719614979" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/application.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965833400" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/public/assets/manifest-d3c92ed5e2770c5d9f8bed965a8008e3.json" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384720228093" ignored="false" />
+    <file path="/z.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384721937955" ignored="false" />
+    <file path="/home.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384721748171" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/initializers/sanitizers.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384832204540" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/devise/confirmations/new.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384833959082" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/initializers/devise.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384970282122" ignored="false" />
+    <file path="/devise.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384970282122" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/devise/registrations/new.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384911502117" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/devise/registrations/edit.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384910823333" ignored="false" />
+    <file path="/_contact_form.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384906836163" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pluribus/app/views/home/_contact_form.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384907204571" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/devise/shared/_links.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384958560053" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/devise/mailer/reset_password_instructions.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384907690030" ignored="false" />
+    <file path="/confirmation_instructions.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384907694648" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/devise/mailer/confirmation_instructions.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384907695024" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/devise/mailer/unlock_instructions.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384907701417" ignored="false" />
+    <file path="/unlock_instructions.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384907700537" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/devise/passwords/edit.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384907793923" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/devise/passwords/new.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384907999350" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/devise/sessions/new.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384958631676" ignored="false" />
+    <file path="/_links.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384958559631" ignored="false" />
+    <file path="$PROJECT_DIR$/../selfstarter-master/config/environments/development.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965396126" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/environments/test.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965581857" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/initializers/wrap_parameters.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965658236" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/boot.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965854376" ignored="false" />
+    <file path="/boot.rb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384965717445" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/views/preorder/_copyright.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384966808242" ignored="false" />
+    <file path="/_copyright.html.erb" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384966808242" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/footer.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968333536" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/main.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384967946285" ignored="false" />
+    <file path="/main.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384967932001" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/homepage.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968016356" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/variables.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968050111" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/homepage/stats.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968320226" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/homepage/call_to_action.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968386740" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/homepage/key_points.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968425783" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/app/assets/stylesheets/primitives.css.scss" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1384968763402" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/config/settings.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1385070160604" ignored="false" />
+    <file path="/settings.yml" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1385070160604" ignored="false" />
+    <file path="$PROJECT_DIR$/../PluribusFund/log/development.log" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1385069788359" ignored="false" />
+    <file path="$PROJECT_DIR$/../catarse-master/Gemfile" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1385072381673" ignored="false" />
+    <file path="$PROJECT_DIR$/../catarse-master/Gemfile.lock" changelist="d58a8fe9-69f9-43a1-9c1a-3a3d62326f0c" time="1385072393192" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,91 +215,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="line_item.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/line_item.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="3" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/cart_items/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="66" selection-start="409" selection-end="409" vertical-scroll-proportion="-11.115385">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/log_ins/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/customers/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="34" selection-start="188" selection-end="188" vertical-scroll-proportion="0.16132858">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customers_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="44" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
+            <state line="18" column="33" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/subscriptions/new.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/log_ins/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="19" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/subscriptions/_form.html.erb">
+      <file leaf-file-name="credit_card.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/credit_card.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="category.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/category.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="41" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orders_controller_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/orders_controller_test.rb">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="3" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+            <state line="10" column="30" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="password_resets_controller_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb">
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/orders/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="3" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0">
+            <state line="63" column="10" selection-start="2140" selection-end="2239" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/order.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="10" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/subscriptions/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -242,15 +323,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/orders/_order.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/order.rb" />
-        <option value="$PROJECT_DIR$/app/views/orders/new.html.erb" />
         <option value="$PROJECT_DIR$/test/controllers/orders_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/models/line_item.rb" />
@@ -258,11 +335,16 @@
         <option value="$PROJECT_DIR$/app/views/customers/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/customer_mailer/password_reset.text.erb" />
+        <option value="$PROJECT_DIR$/app/views/log_ins/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/orders/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/order.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1616" />
+    <option name="x" value="766" />
+    <option name="width" value="1154" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -326,6 +408,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,7 +559,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="password_resets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="orders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log_ins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -610,6 +802,50 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -623,7 +859,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PluribusFund" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="155" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="830" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="834" />
@@ -638,7 +874,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
@@ -646,6 +882,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tanveer\RubymineProjects\betastore\app\assets\javascripts" />
       <recent name="C:\Users\Tanveer\RubymineProjects\betastore\app\controllers\concerns" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -657,7 +894,7 @@
   <component name="RestClientSettings">
     <option name="LAST_HOST" value="http://localhost:3000/" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.cart_items_controller_test">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.customer_controller_test">
     <configuration default="false" name="products_controller_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="betastore" />
@@ -671,7 +908,11 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/controllers/products_controller_test.rb" />
@@ -683,32 +924,6 @@
       <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="order_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="betastore" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/test/models" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/models/order_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -725,7 +940,11 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb" />
@@ -751,7 +970,11 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/mailers/customer_mailer_test.rb" />
@@ -777,10 +1000,44 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/controllers/cart_items_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="customer_controller_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="betastore" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/test/controllers" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/controllers/customer_controller_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -801,7 +1058,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
@@ -823,7 +1084,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -848,7 +1113,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
@@ -865,7 +1134,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -900,7 +1173,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$PROJECT_DIR$/test" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -916,18 +1193,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.products_controller_test" />
-      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.order_test" />
-      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.password_resets_controller_test" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.customer_mailer_test" />
-      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.cart_items_controller_test" />
+      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.password_resets_controller_test" />
+      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.customer_mailer_test" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.cart_items_controller_test" />
+      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.customer_controller_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.cart_items_controller_test" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.customer_mailer_test" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.password_resets_controller_test" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.products_controller_test" />
-        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.order_test" />
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.customer_controller_test" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.cart_items_controller_test" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.customer_mailer_test" />
+        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.password_resets_controller_test" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.products_controller_test" />
       </list>
     </recent_temporary>
   </component>
@@ -1235,22 +1512,26 @@
       <created>1383874762675</created>
       <updated>1383874762675</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Edit Inline Cart Summary">
+      <created>1384292188894</created>
+      <updated>1384292188894</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1616" height="1080" extended-state="0" />
-    <editor active="false" />
+    <frame x="766" y="0" width="1154" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.6619256" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30347937" sideWeight="0.5973742" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.59956235" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40262583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40043762" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286026" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1305,7 +1586,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cart Summary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit Inline Cart Summary" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1332,119 +1613,112 @@
     <MESSAGE value="Password Reset Test" />
     <MESSAGE value="Cart added" />
     <MESSAGE value="Cart Summary" />
+    <MESSAGE value="Edit Inline Cart Summary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="38" selection-end="172" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/customers/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="21" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/customer_mailer.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+        <state line="25" column="10" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/subscriptions/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/orders_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="3" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/order.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="43" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/orders/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/orders_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/password_resets_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="3" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/line_item.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+        <state line="10" column="30" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/cart_items/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="66" selection-start="409" selection-end="409" vertical-scroll-proportion="-11.115385">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/order.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/orders/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="10" selection-start="2140" selection-end="2239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/log_ins/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/log_ins/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/credit_card.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/subscriptions/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/category.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/subscriptions/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="188" selection-end="188" vertical-scroll-proportion="0.16132858">
           <folding />
         </state>
       </provider>
