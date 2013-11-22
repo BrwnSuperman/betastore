@@ -1,12 +1,12 @@
 <br/>
-<%= link_to cart_items_path, class: 'cart' do %>
-    Cart (<span id="cart_item_count"><%= cart_item_count %></span>)
+<h4><%= link_to cart_items_path, class: 'cart' do %>
+    Cart (<span id="cart_item_count"><%= cart_item_count %> </span>)
 <% end %>
-|
+</h4>
 <% if logged_in? %>
-    <%= link_to "Log Out", log_out_path, method: 'post' %>
+  <%= button_to "Log Out", log_out_path, method: 'post', class: 'btn btn-info btn-lg', style: 'text-align:center' %>
 <% else %>
-    <%= link_to "Log In", log_in_path %>
+  <%= button_to "Log In", log_in_path, class: 'btn btn-info btn-lg', style: 'text-align:center'  %>
 <% end %>
 
 <div id="cart" style="display: none"></div>

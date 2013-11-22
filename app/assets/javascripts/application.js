@@ -16,20 +16,16 @@
 //= require_tree .
 $(document).ready(function(){
 
-    var updateCartDisplay = function($cart) {
-        $.get('/cart', function(html) {
-            $cart.html(html).show();
-        });
-    }
-
     $('a.cart').click(function() {
         var $cart = $('#cart');
         if($cart.is(':visible')) {
             $cart.hide();
         } else {
-            updateCartDisplay($cart);
+            $.get('/cart_items', function(html){
+                $cart.html(html).show();
+            });
         }
-        return false;
+      return false;
     });
 
     $('.add_to_cart').click(function(){
@@ -41,11 +37,9 @@ $(document).ready(function(){
                 dataType: 'json',
                 success: function(json) {
                     $('#cart_item_count').text(json.item_count);
-
-                    var $cart = $('#cart');
-                    if($cart.is(':visible')) {
-                        updateCartDisplay($cart);
-                    }
+                    $.get('/cart', function(html) {
+                    $('#cart').html(html).update();
+                    });
                 }
             });
         } catch(e) {
