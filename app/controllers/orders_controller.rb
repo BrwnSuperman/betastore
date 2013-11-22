@@ -24,7 +24,7 @@ class OrdersController < ApplicationController
   protected
   def order_params
     params.require(:order).permit(
-        credit_card_attributes: [:cardholder_name, :card_number, :expiration_month, :expiration_year],
+        credit_card_attributes: [:cardholder_name, :card_number, :exp_month, :exp_year],
         line_items_attributes: [:product_id, :quantity])
   end
 end
