@@ -16,3 +16,4 @@
 /tmp
 
 .DS_Store
+/config/secret_token.rb
