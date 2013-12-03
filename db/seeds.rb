@@ -6,13 +6,21 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-[
-  { name: 'Hat', price: 14.99 },
-  { name: 'Hoodie', price: 22.99 },
-  { name: 'iPhone Case', price: 9.99 }, 
-  { name: 'Journal', price:  12.99 },
-  { name: 'Shirt', price:  17.99 },
-  { name: 'Sticker', price: 2.99 }
-].each do |attrs|
-  Product.create!(attrs)
-end
+clothing = Category.create!(name: 'Clothing')
+stuff = Category.create!(name: 'Stuff')
+
+categories = Category.all
+
+clothing.products << Product.create!(name: 'Hat', price: 14.99)
+clothing.products << Product.create!(name: 'Hoodie', price: 22.99)
+stuff.products << Product.create!(name: 'iPhone Case', price: 9.99)
+stuff.products << Product.create!(name: 'Journal', price: 12.99)
+clothing.products << Product.create!(name: 'Shirt', price:  17.99)
+stuff.products << Product.create!(name: 'Sticker', price: 2.99)
+
+# The rest is fake data to simulate having a large product catalog
+#1000.times do
+#  categories.sample.products << Product.create!(
+#      name: Faker::Commerce.product_name,
+#      price: (rand(20) + rand(99)/100.0))
+#end

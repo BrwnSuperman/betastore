@@ -51,7 +51,10 @@ gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
 
 gem 'kaminari'
 
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
+gem 'newrelic_rpm'
+
+gem 'progressbar'
 
 # Use unicorn as the app server
 # gem 'unicorn'
